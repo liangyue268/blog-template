@@ -1,0 +1,24 @@
+# Site settings
+title: "your title"
+header-img: img/blue.jpg
+description: "your description"
+baseurl: ""
+url: "http://www.your_domain.com"
+twitter_username: aa
+github_username:  bb
+facebook_username:  cc
+linkedin_usedname:  dd
+favicon: /img/favicon.ico
+gems: [jekyll-paginate]
+
+# About/contact
+owner: 
+  name: "your name"
+  email: your_name@your_domain.com
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
